@@ -12,8 +12,25 @@
     position: absolute;
     bottom: 0;
     left: 50%;
+    /* this takes 50% of the element width and moves it 50% of the full value to the left (x axis (-) is left (+) is right, the second -50% is vertiucally like x (y) and z axies in (3d printing  */
     transform: translate(-50%, -50%);
     /* z-index: 1; ===== this allows for the styler to layer position of the element for  better control and the higher the number takes priority */
+}
+
+
+#drumclap {
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%)
+}
+
+#hihat {
+    position: absolute;
+    bottom: 20%;
+    right: 40%;
+    transform: translate(+50%, -50%);
+
 }
 
 #BANG {
