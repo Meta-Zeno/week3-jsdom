@@ -1,0 +1,67 @@
+/* remove the browsers default margin and center everything horizontally on the page */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main page header */
+/* Flexbox centers the text and pushes it to the bottom of the div */
+#headerContainer {
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 200px;
+    width: 100vw;
+}
+/* the group selector tagets multiple elements and applies the same CSS to them */
+#headerContainer h1, #colorToGuess {
+    color: white;
+    margin: 15px;
+}
+
+/* Control bar with stats and info */
+/* uses flexbox to space out the child elements in  one line */
+#controlBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    width: 100vw;
+}
+
+#newColBtn {
+    background-color: rgb(37, 37, 37);
+    border: none;
+    border-radius: 0;
+    color: white;
+    cursor: pointer;
+}
+
+#newColBtn:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+
+/* 6 boxes with random colors */
+/* assign a height and width to the container so there are 2 rows with 3 columns */
+#optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+    height: 330px;
+}
+
+/* Any elements with the box class have these properties applied to them */
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}

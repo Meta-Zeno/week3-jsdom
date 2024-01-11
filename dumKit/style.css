@@ -1,0 +1,41 @@
+ body{
+    background-color: rgb(255, 4, 4);
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+
+
+#boomdiv {
+    background-color: green;
+    /* position absolute moves the element from default layer into a new one than can be controlled freely*/
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 1; ===== this allows for the styler to layer position of the element for  better control and the higher the number takes priority */
+}
+
+#BANG {
+    width: 100px;
+    height: 100px;
+    bottom: 10%;
+    right: 50%;
+    padding: 10px;
+
+}
+
+#CLAP {
+
+
+    width: 100px;
+    height: 100px;
+}
+
+
+#HIHAT{
+
+    width: 100px;
+    height: 100px;
+}
+

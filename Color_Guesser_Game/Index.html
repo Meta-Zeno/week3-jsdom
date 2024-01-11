@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- connect to the CSS file -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- section that holds instructions and the rgb value you need to find -->
+    <div id="headerContainer">
+        <h1>Guess what this color is</h1>
+        <h2 id="colorToGuess">rgb(0, 0, 0)</h2>
+    </div>
+
+    <!-- sectino that holds stats, messages, and the new color (reset) button -->
+    <div id="controlBar">
+        <button id="newColBtn">New Color</button>
+        <p id="isCorrectMsg"></p>
+        <p>Score: <span id="score">0</span> </p>
+    </div>
+
+    <!-- section to hold the 6 boxes that contain random colors -->
+    <div id="optionsContainer">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <!-- connect to the JavaScript file -->
+    <script src="./script.js"></script>
+</body>
+</html>

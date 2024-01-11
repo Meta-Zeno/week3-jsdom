@@ -1,0 +1,43 @@
+1. Add buttons for each sound file in the html 
+
+2. Create an event listener that tracks click
+    -console log a string when event listener is run
+
+3.  Instead of console log, play a sound file on click
+    -you'll here the sound when the button is clicked 
+
+4. Repeat that functionality for the rest of the  buttons.
+    -Should be able to play the drum kit by the buttons
+
+5. Create an event listener that tracks a key press on the page
+    - console log the code value using hte event object
+
+6. Instead of the console log, play the corresponding sound file on the key press
+ - Should hear the sound file when correct key is pressed,
+
+7. Repeat fucntionaility for hte rest of the sound files
+    - should be able to play the durm kit on your keyboard
+
+9. Style it! and make it look good
+
+//extra stretch goal
+
+8. Try to reduce the amount of code writting  (maybe using a loop to add event listeners)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="boomdiv">
+        <audio id="boom" src="./sounds/boom.wav"></audio>
+            <button onclick="playAudio(`boom`)" type="button" class="audio button">
+                <img id="BANG" src="./kick-drum-purple.png" alt="Bass kick"> 
+            Play Bass kick
+        </button>   
+    </div>
+    
+
+    <div id="drumclap">
+        <audio id="clap" src="./sounds/clap.wav"></audio>
+            <button onclick="playAudio(`clap`)" type="button" class="audio button">
+                <img id="CLAP" src="./clap.png" alt="clap drum">
+                Play Clap
+            </button>
+    </div>
+
+
+    <div id="hihat">
+        <audio id="HI-HAT" src="./sounds/hihat.wav"></audio>
+            <button onclick="playAudio(`HI-HAT`)" type="button" class="audio button">
+                <img id="HIHAT" src="./hi-hat.png" alt="hi-hat drum">
+                Play Hi-Hat
+            </button>
+    </div>
+
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
+
