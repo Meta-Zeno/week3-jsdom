@@ -1,0 +1,45 @@
+
+body {
+    background:
+    linear-gradient(to left, #088f8f, #355e3b );
+
+}
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 95px ;
+    color: rgb(0, 255, 13);
+}
+
+
+.dice-area {
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+p {
+    font-size: 40px;
+    columns: rgb(208, 214, 218);
+}
+
+
+img {
+    width: 320px;
+
+}
+
+
+
+
+
+
+
+
