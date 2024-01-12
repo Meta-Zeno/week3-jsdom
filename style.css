@@ -1,21 +1,26 @@
-body{
-    background-color: aquamarine;
+body {
+    background:
+    linear-gradient(to left, #00ff2a, #1100ff );
 }
 
 h1 {
     position: absolute;
     left: 39%;
+    border: 5px solid rgb(47, 236, 9);
 }
+
+
 
 #github {
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 40%;
+    border: 5px solid rgb(12, 187, 85);
 }
 
 ul {
-    
     position: absolute;
-    top: 20%;
-    left: 38%
+    top: 40%;
+    left: 38%;
+    border: solid #00ff2a;
 }
